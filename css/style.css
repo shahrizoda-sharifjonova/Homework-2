@@ -35,12 +35,6 @@
     transition: 0.5s;
 }
 
-.paragraph-1:hover{
-    background: #a4ff8e;
-    border: 1px solid #017001;
-    color: #017001;
-}
-
 .links{
     text-align: center;
 }
@@ -131,12 +125,6 @@
     transition: 0.5s;
 }
 
-.paragraph:hover{
-    background: #a4ff8e;
-    border: 1px solid #017001;
-    color: #017001;
-}
-
 .bttn{
     display: flex;
     margin-top: -165px;
@@ -152,7 +140,7 @@
 }
 
 .back__text{
-    text-decoration: none;
+    text-decoration: none; 
     color: #000;
     align-self: center;
     transition: 0.4s;
@@ -166,14 +154,15 @@
 
 .about__img{
     width: 1000px;
-    margin-left: 97px;
+    margin-left: 110px;
     margin-top: 30px;
     transition: 0.8s;
+    text-align: center;
 }
 
 .about__map{
     margin-top: 30px;
-    margin-left: 97px;
+    margin-left: 110px;
     width: 1000px;
 }
 
