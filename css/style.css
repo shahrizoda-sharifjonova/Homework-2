@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+.title{
+    color: #017001;
+    background: #a4ff8e;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.title-1{
+    margin-top: 40px;
+}
+
+.paragraph-1{
+    font-size: 15px;
+    text-align: center;
+    width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid #017001;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.paragraph-1:hover{
+    background: #a4ff8e;
+    border: 1px solid #017001;
+    color: #017001;
+}
+
+.links{
+    text-align: center;
+}
+
+.link{
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.rows-body{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    background-position: bottom; 
+    transition: 0.5s;
+}
+
+.img:hover{
+    transform: scale(0.9);
+}
+
+.small-text{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.row__p{
+    font-size: 14px;
+    text-align: center;
+    max-width:280px;
+    margin: 10px 10px 20px 10px;
+}
+
+.row{
+    border: 1px solid #017001;
+    border-radius: 5px;
+    top: 0;
+}
+
+.section__video{
+    width: 100%;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+.next__text{
+    font-size: 15px;
+    align-self: center;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+}
+
+.next__text:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.next__img{
+    width: 30px;
+}
+
+.button{
+    display: flex;
+}
+
+.paragraph{
+    font-size: 15px;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #017001;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.paragraph:hover{
+    background: #a4ff8e;
+    border: 1px solid #017001;
+    color: #017001;
+}
+
+.bttn{
+    display: flex;
+    margin-top: -165px;
+    margin-left: 25px;
+}
+
+.back__img{
+    width: 35px;
+    height: 40px;
+    transform: rotate(180deg);
+    align-self: center;
+    margin-right: 15px;
+}
+
+.back__text{
+    text-decoration: none;
+    color: #000;
+    align-self: center;
+    transition: 0.4s;
+}
+
+.back__text:hover{
+    
+    text-decoration: underline;
+    color: blue;
+}
+
+.about__img{
+    width: 1000px;
+    margin-left: 97px;
+    margin-top: 30px;
+    transition: 0.8s;
+}
+
+.about__map{
+    margin-top: 30px;
+    margin-left: 97px;
+    width: 1000px;
+}
+
+.about__text{
+    text-align: center;
+    margin: 20px 0 0 0;
+    color: #017001;
+}
